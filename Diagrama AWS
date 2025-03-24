@@ -1,0 +1,49 @@
+graph LR
+    center((Sistemas de Armas Autônomas (AWS)))
+    subgraph Definição
+        center --- definição["Plataformas tecnológicas avançadas que, uma vez ativadas, demonstram a capacidade de identificar, selecionar e aplicar força a alvos sem a necessidade de intervenção humana direta."]
+    end
+
+    subgraph Características Principais
+        CaracterísticasPrincipais((Características Principais))
+        center --- CaracterísticasPrincipais
+        CaracterísticasPrincipais --> Operação[Operação Baseada em Perfis de Alvo]
+        CaracterísticasPrincipais --> Sensores[Sensores e Software Sofisticados]
+        CaracterísticasPrincipais --> Adaptação[Adaptação Dinâmica]
+    end
+
+    subgraph Aspectos Éticos e Legais
+        AspectosEticosLegais((Aspectos Éticos e Legais))
+        center --- AspectosEticosLegais
+        AspectosEticosLegais --> DIH[Direito Internacional Humanitário (DIH)]
+        AspectosEticosLegais --> ControleHumano[Controle Humano Significativo]
+        AspectosEticosLegais --> Responsabilidade[Responsabilidade]
+    end
+
+    subgraph Plataforma em Detrimento de Sistemas
+        PlataformaDetrimento((Plataforma em Detrimento de Sistemas))
+        center --- PlataformaDetrimento
+        PlataformaDetrimento --> Complexidade[Complexidade e Integração]
+        PlataformaDetrimento --> Estrutura[Estrutura Ampla]
+    end
+
+    subgraph Controle Humano Significativo
+        ControleHumano((Controle Humano Significativo))
+        center --- ControleHumano
+        ControleHumano --> Supervisão[Supervisão]
+        ControleHumano --> Alinhamento[Alinhamento Ético]
+    end
+
+    subgraph Capacidade de Selecionar e Engajar Alvos
+        CapacidadeSelecionarEngajar((Capacidade de Selecionar e Engajar Alvos))
+        center --- CapacidadeSelecionarEngajar
+        CapacidadeSelecionarEngajar --> Autonomia[Autonomia Operacional]
+        CapacidadeSelecionarEngajar --> Independência[Independência]
+    end
+
+    style center fill:#f9f,stroke:#333,stroke-width:2px
+    style CaracterísticasPrincipais fill:#ccf,stroke:#333,stroke-width:2px
+    style AspectosEticosLegais fill:#ccf,stroke:#333,stroke-width:2px
+    style PlataformaDetrimento fill:#ccf,stroke:#333,stroke-width:2px
+    style ControleHumano fill:#ccf,stroke:#333,stroke-width:2px
+    style CapacidadeSelecionarEngajar fill:#ccf,stroke:#333,stroke-width:2px
